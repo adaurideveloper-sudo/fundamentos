@@ -10,5 +10,10 @@ public class DadosNaoPrimitivos {
         String nome = "Naruto Uzumaki";
         String nomeEmCaixaAlta = nome.toUpperCase();// toUpperCase coloca tudo em CAPSLOCK
         System.out.println("Este texto esta em CAPSLOCK: " + nomeEmCaixaAlta);
+
+
+        String aldeia = "Aldeia da Folha";
+        String aldeiaCaixaBaixa = aldeia.toLowerCase();;//vai colocar tudo em caixa baixa
+        System.out.println("Este texto esta em caixa: " + aldeiaCaixaBaixa + ".");
     }
 }
