@@ -10,6 +10,18 @@ public class Main {
         String statusDaMissao = "em andamento";
         char nivelDaMissao = 'A';
 
+        //Verificar nivel da missao e idade do ninja
+
+        if(idade < 15){
+            if (nivelDaMissao == 'C' || nivelDaMissao == 'D'){
+                statusDaMissao = "concluida";
+            } else {
+                statusDaMissao = "Não concluida idade insuficiente";
+            }
+        } else {
+                statusDaMissao = "concluida";
+        }
+
         System.out.println("-----------------------");
         System.out.println("Nome do ninja: " + nomeNinja1);
         System.out.println("Idade do ninja: " + idade);
@@ -25,6 +37,16 @@ public class Main {
         String statusDaMissao2 = "em andamento";
         char nivelDaMissao2 = 'S';
 
+        if(idade <= 15){
+            if (nivelDaMissao2 == 'C' || nivelDaMissao2 == 'D'){
+                statusDaMissao2 = "concluida";
+            } else {
+                statusDaMissao2 = "Não concluida, idade insuficiente";
+            }
+        } else {
+            statusDaMissao2 = "concluida";
+        }
+
         System.out.println("-----------------------");
         System.out.println("Nome do ninja: " + nomeNinja2);
         System.out.println("Idade do ninja: " + idade2);
@@ -39,6 +61,8 @@ public class Main {
         String missao3 = "curar os feridos da guerra";
         String statusDaMissao3 = "concluido";
         char nivelDaMissao3 = 'A';
+
+
 
         System.out.println("-----------------------");
         System.out.println("Nome do ninja: " + nomeNinja3);
