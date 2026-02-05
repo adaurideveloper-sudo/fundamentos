@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScannerDoUsuario {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         /*
          * Scanner- è um jeito de trazer o usuario para dentro da aplicacao
@@ -23,7 +23,7 @@ public class ScannerDoUsuario {
 
         // Tratamento de dados
         if (idadeDoNinja >= 18) {
-            System.out.println("Esse ninja ja é maio de idade e pode ir para missoes fora da vila");
+            System.out.println("Esse ninja ja é maior de idade e pode ir para missoes fora da vila");
         } else {
             System.out.println("Esse ninja é muito novo ainda, precisa treinar mais antes de sair da vila");
         }
