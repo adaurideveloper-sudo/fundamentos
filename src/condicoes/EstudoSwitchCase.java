@@ -2,6 +2,8 @@ package condicoes;
 
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 public class EstudoSwitchCase {
     public static void main(String[] args) {
 
@@ -11,13 +13,13 @@ public class EstudoSwitchCase {
         * */
 
         // Pedir para o usuario
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner=new Scanner(in);
 
         // Mostrar opcoes para o usuario
-        System.out.println("escolha um personagem: ");
-        System.out.println("1 - Naruto Uzumaki");
-        System.out.println("2 - Sasuke Uchiha ");
-        System.out.println("3 - Sakura Haruno");
+        out.println("escolha um personagem: ");
+        out.println("1 - Naruto Uzumaki");
+        out.println("2 - Sasuke Uchiha ");
+        out.println("3 - Sakura Haruno");
 
         // Pedir par o usuario escolher uma das opcoes
          int escolhaDoUsuario = scanner.nextInt();
@@ -25,16 +27,16 @@ public class EstudoSwitchCase {
         // Reacao ao escolher um personagem
         switch (escolhaDoUsuario) {
             case 1:
-                System.out.println("O usuario escolheu o Naruto Uzumaki");
+                out.println("O usuario escolheu o Naruto Uzumaki");
                 break;
             case 2:
-                System.out.println("O usuario escolheu o Sasuke Uchiha");
+                out.println("O usuario escolheu o Sasuke Uchiha");
                 break;
             case 3:
-                System.out.println("O usuario escolheu a Sakura Haruno");
+                out.println("O usuario escolheu a Sakura Haruno");
                 break;
             default:
-                System.out.println("voce nao digitou uma alternativa valida! Tente novamente.");
+                out.println("voce nao digitou uma alternativa valida! Tente novamente.");
         }
 
         // fechar a caixa

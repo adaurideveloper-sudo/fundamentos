@@ -2,6 +2,8 @@ package condicoes;
 
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 public class ScannerDoUsuario {
 
     public static void main(String[] args) {
@@ -11,21 +13,21 @@ public class ScannerDoUsuario {
          * Objetivo: o usuario ira criar um ninja e validar os dados
          * */
 
-        Scanner caixaDeTexto = new Scanner(System.in);
+        Scanner caixaDeTexto = new Scanner(in);
 
         String nomeDoNinja = caixaDeTexto.nextLine();
-        System.out.println("O nome do ninja é: " + nomeDoNinja);
+        out.println("O nome do ninja é: " + nomeDoNinja);
 
         // Receber a idade do ninja
-        System.out.println("Escreva aqui a idade do seu ninja: ");
+        out.println("Escreva aqui a idade do seu ninja: ");
         int idadeDoNinja = caixaDeTexto.nextInt();
-        System.out.println("A idade do ninja é: " + idadeDoNinja + " anos");
+        out.println("A idade do ninja é: " + idadeDoNinja + " anos");
 
         // Tratamento de dados
         if (idadeDoNinja >= 18) {
-            System.out.println("Esse ninja ja é maior de idade e pode ir para missoes fora da vila");
+            out.println("Esse ninja ja é maior de idade e pode ir para missoes fora da vila");
         } else {
-            System.out.println("Esse ninja é muito novo ainda, precisa treinar mais antes de sair da vila");
+            out.println("Esse ninja é muito novo ainda, precisa treinar mais antes de sair da vila");
         }
 
 
