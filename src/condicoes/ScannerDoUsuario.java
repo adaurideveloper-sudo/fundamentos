@@ -17,7 +17,7 @@ public class ScannerDoUsuario {
         System.out.println("O nome do ninja é: " + nomeDoNinja);
 
         // Receber a idade do ninja
-        System.out.println("Escra aqui a idade do seu ninja: ");
+        System.out.println("Escreva aqui a idade do seu ninja: ");
         int idadeDoNinja = caixaDeTexto.nextInt();
         System.out.println("A idade do ninja é: " + idadeDoNinja + " anos");
 
