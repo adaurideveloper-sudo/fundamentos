@@ -22,11 +22,23 @@ public class EstudoSwitchCase {
         // Pedir par o usuario escolher uma das opcoes
          int escolhaDoUsuario = scanner.nextInt();
 
-
+        // Reacao ao escolher um personagem
+        switch (escolhaDoUsuario) {
+            case 1:
+                System.out.println("O usuario escolheu o Naruto Uzumaki");
+                break;
+            case 2:
+                System.out.println("O usuario escolheu o Sasuke Uchiha");
+                break;
+            case 3:
+                System.out.println("O usuario escolheu a Sakura Haruno");
+                break;
+            default:
+                System.out.println("voce nao digitou uma alternativa valida! Tente novamente.");
+        }
 
         // fechar a caixa
         scanner.close();
-
 
     }
 }
