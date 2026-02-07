@@ -7,10 +7,10 @@ public class LacoDeRepeticao {
         int numeroMaximoDeClones = 40;
 
 
-        while (numeroDeClones < numeroMaximoDeClones) {
+        while (numeroDeClones <= numeroMaximoDeClones) {
             numeroDeClones ++;
-        }
             System.out.println("O Naruto um clone das sombras " + numeroDeClones);
+        }
 
 
         for (int i = 0; i <= numeroMaximoDeClones ; i++) {
