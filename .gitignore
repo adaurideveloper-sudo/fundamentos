@@ -1,9 +1,16 @@
-### IntelliJ IDEA ###
+### Build Tools ###
+target/
+build/
+.gradle/
+bin/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
-.idea
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.kotlin/
 
 ### Eclipse ###
 .apt_generated
@@ -13,9 +20,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,5 +31,7 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS & Logs ###
 .DS_Store
+Thumbs.db
+*.log
