@@ -1,4 +1,4 @@
-package condicoes;
+package basico.condicoes;
 
 import static java.lang.System.*;
 

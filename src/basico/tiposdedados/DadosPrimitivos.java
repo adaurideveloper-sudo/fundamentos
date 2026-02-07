@@ -1,4 +1,4 @@
-package tiposdedados;
+package basico.tiposdedados;
 
 import static java.lang.System.*;
 

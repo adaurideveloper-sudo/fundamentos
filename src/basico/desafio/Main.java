@@ -1,4 +1,4 @@
-package br.com.dev.desafio;
+package basico.desafio;
 
 import static java.lang.System.*;
 
