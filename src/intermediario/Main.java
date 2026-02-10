@@ -35,5 +35,13 @@ public class Main{
         Hinata.aldeia = AldeiaPadrao;
         Hinata.idade = 16;
         Hinata.ByakuganAtivado();
+
+        //Criar Boruto HyugaUzumaki
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = AldeiaPadrao;
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
+
     }
 }
