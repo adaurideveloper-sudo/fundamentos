@@ -3,17 +3,20 @@ package intermediario;
 public class MainHokage {
     public static void main(String[] args) {
 
-        Hokage Hashirama = new Hokage();
-        Hashirama.idade = 45;
-
-        Hokage Tobirama = new Hokage("Tobirama Senju");
+        Senju Tobirama = new Senju("Tobirama Senju");
         System.out.println(Tobirama.nome);
 
-        Hokage Hiruzen = new Hokage(40);
+        Senju Hiruzen;
+        Hiruzen = new Senju(40);
         System.out.println(Hiruzen.idade);
 
-        Hokage Minato = new Hokage("Minato Namikaze",32, true);
+        Senju Minato = new Senju("Minato Namikaze", 50, true);
         System.out.println(Minato.nome + " " + Minato.idade + " " + Minato.vivoOuNao);
+
+        Senju Hashimara = new Senju();
+        Hashimara.nome = "Hashirama Senju";
+        Hashimara.idade = 45;
+        Hashimara.sabedoriaHokage();
 
     }
 }
