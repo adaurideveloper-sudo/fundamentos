@@ -18,8 +18,8 @@ public class Senju extends Hokage{
         this.idade = idade;
     }
 
-    public Senju(String nome, int idade, boolean vivoOuNao) {
-        super(nome, idade, vivoOuNao);
+    public Senju(String nome, int idade, boolean vivoOuNao, String aldeia, int missoes) {
+        super(nome, idade, vivoOuNao, aldeia, missoes);
     }
 
 

@@ -10,7 +10,7 @@ public class MainHokage {
         Hiruzen = new Senju(40);
         System.out.println(Hiruzen.idade);
 
-        Senju Minato = new Senju("Minato Namikaze", 50, true);
+        Senju Minato = new Senju("Minato Namikaze", 50, true, "Hokage", 5);
         System.out.println(Minato.nome + " " + Minato.idade + " " + Minato.vivoOuNao);
 
         Senju Hashimara = new Senju();

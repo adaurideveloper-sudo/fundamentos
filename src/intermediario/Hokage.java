@@ -11,14 +11,12 @@ public abstract class Hokage {
 
     public abstract  void sabedoriaHokage();
 
-    public Hokage(String nome, int idade, boolean vivoOuNao) {
+    public Hokage(String nome, int idade, boolean vivoOuNao, String aldeia, int missoes) {
         this.nome = nome;
         this.idade = idade;
         this.vivoOuNao = vivoOuNao;
         this.aldeia = aldeia;
         this.missoes = missoes;
-        this.saldoBancario = saldoBancario;
-        this.altura = altura;
     }
 
     public Hokage() {
