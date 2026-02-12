@@ -6,8 +6,7 @@ public class MainHokage {
         Senju Tobirama = new Senju("Tobirama Senju");
         System.out.println(Tobirama.nome);
 
-        Senju Hiruzen;
-        Hiruzen = new Senju(40);
+        Senju Hiruzen = new Senju(40);
         System.out.println(Hiruzen.idade);
 
         Senju Minato = new Senju("Minato Namikaze", 50, true, "Hokage", 5);
