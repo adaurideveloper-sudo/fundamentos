@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Uzumaki ninja = new Uzumaki();
+        Uzumaki.nome = "Naruto Uzumaki";
         ninja.nomeDoNinja();
         ninja.lancarShuriken();
 
