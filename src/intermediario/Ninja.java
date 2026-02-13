@@ -5,6 +5,15 @@ public abstract class Ninja implements ExtategiaDeBatalha {
     String aldeia;
     int idade;
 
+    public Ninja() {
+    }
+
+    public Ninja(String nome, String aldeia, int idade) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
+    }
+
     // Metodo geral - todos o ninjas irao ter
     public void habilidadeespecial(){
         System.out.println("Meu nome é " + nome + " e essa é minha habilidade especial.");
