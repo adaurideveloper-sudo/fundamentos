@@ -13,14 +13,17 @@ public class Main{
         naruto.estrategiaDeBatalhaNinja();
 
         //Criar ninja Sasuke
-        Uchiha Sasuke = new Uchiha("Sasuke Uchiha", AldeiaPadrao, 20);
-        Sasuke.SharinganAtivado();
-        Sasuke.habilidadeespecial();
-        Sasuke.estrategiaDeBatalhaNinja();
-
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", AldeiaPadrao, 20);
 
         //Obj Uchiha
         Uchiha itachi = new Uchiha("Itachi Uchiha", AldeiaPadrao, 27);
+        System.out.println("Meu nome é "+ itachi.nome +", " + "sou da aldeia "+ itachi.aldeia + " " + "e tenho " + itachi.idade + " anos.");
+
+        //Criar ninja Kakashi
+        Hatake kakashi = new Hatake("Kakashi Hatake", AldeiaPadrao, 48);
+        kakashi.boasVindas();
+        kakashi.SharinganAtivado();
+        kakashi.ninjaDeElite();
 
         //Criar ninja Sakura
         Haruno Sakura = new Haruno();
@@ -28,7 +31,7 @@ public class Main{
         Sakura.aldeia = AldeiaPadrao;
         Sakura.idade = 18;
         Sakura.AtivarCura();
-        Sakura.habilidadeespecial();
+        Sakura.habilidadeEspecial();
 
         // Criar Hinata Hyuga
         Hyuga Hinata = new Hyuga();
@@ -36,7 +39,7 @@ public class Main{
         Hinata.aldeia = AldeiaPadrao;
         Hinata.idade = 16;
         Hinata.ByakuganAtivado();
-        Hinata.habilidadeespecial();
+        Hinata.habilidadeEspecial();
 
         //Criar Boruto HyugaUzumaki
         Boruto Boruto = new Boruto();
@@ -44,7 +47,7 @@ public class Main{
         Boruto.aldeia = AldeiaPadrao;
         Boruto.AtivarOKarma();
         Boruto.AtivarJougan();
-        Boruto.habilidadeespecial();
+        Boruto.habilidadeEspecial();
 
 
     }

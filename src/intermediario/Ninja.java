@@ -15,7 +15,7 @@ public abstract class Ninja implements ExtategiaDeBatalha {
     }
 
     // Metodo geral - todos o ninjas irao ter
-    public void habilidadeespecial(){
+    public void habilidadeEspecial(){
         System.out.println("Meu nome é " + nome + " e essa é minha habilidade especial.");
     }
 
