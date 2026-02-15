@@ -26,6 +26,9 @@ public class Main{
         //Obj3 Uchiha
         Uchiha madara = new Uchiha("Madara Uchiha", AldeiaPadrao, 45, 900, NivelNinja.KAGE);
         madara.SharinganAtivado();
+        madara.inteligenciaDeCombate();
+        madara.inteligenciaDeCombate(150);
+
 
         //Criar ninja Kakashi
         Hatake kakashi = new Hatake("Kakashi Hatake", AldeiaPadrao, 48, 1000, NivelNinja.KAGE);
