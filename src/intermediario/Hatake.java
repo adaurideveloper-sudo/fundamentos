@@ -1,6 +1,6 @@
 package intermediario;
 
-public class Hatake extends Ninja implements  SharinganInterface, Ambuinterface {
+public class Hatake extends Ninja implements  SharinganInterface, Anbuinterface {
 
     public Hatake() {
         super();
