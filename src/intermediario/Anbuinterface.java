@@ -1,6 +1,6 @@
 package intermediario;
 
-public interface Ambuinterface {
+public interface Anbuinterface {
 
     void ninjaDeElite();
 

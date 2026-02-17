@@ -47,6 +47,7 @@ public class Main{
         ninjaAnbu.nome = "Kakashi Hatake";
         ninjaAnbu.anbu();
 
+
     }
 
 }
