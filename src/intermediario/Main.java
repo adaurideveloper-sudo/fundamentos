@@ -4,7 +4,7 @@ public class Main{
 
     public static final String AldeiaPadrao = "Aldeia da Folha";
 
-    public static void main() {
+    static void main() {
 
         // Obj Uzumaki
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN);
@@ -12,13 +12,10 @@ public class Main{
         naruto.ModoSabioAtivado();
         naruto.estrategiaDeBatalhaNinja();
 
-
         // Obj1 Uchiha
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", AldeiaPadrao, 18, 20, NivelNinja.CHUUNIN);
         sasuke.SharinganAtivado();
         sasuke.habilidadeEspecial();
-        ;
-
 
         //Obj2 Uchiha
         Uchiha itachi = new Uchiha("Itachi Uchiha", AldeiaPadrao,27, 100, NivelNinja.JOUNIN);
@@ -47,8 +44,6 @@ public class Main{
         ninjaAnbu.anbu();
         ninjaAnbu.nome = "Kakashi Hatake";
         ninjaAnbu.anbu();
-
-
 
     }
 
