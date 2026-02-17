@@ -41,6 +41,12 @@ public class Main{
         Uzumaki boruto = new Uzumaki("Boruto Hyoga Uzumaki", AldeiaPadrao, 14, 5, NivelNinja.GENIN);
         System.out.println(boruto);
 
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Itachi Uchiha";
+        ninjaAnbu.anbu();
+        ninjaAnbu.nome = "Kakashi Hatake";
+        ninjaAnbu.anbu();
+
     }
 
 }
