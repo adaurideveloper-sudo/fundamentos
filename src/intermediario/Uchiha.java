@@ -13,7 +13,9 @@ public class Uchiha extends Ninja implements  SharinganInterface, HabilidadeEspe
     public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
-
+     /*
+     * Metodo: Omplementado da interface SharinganInterface
+     * */
     @Override
     public void SharinganAtivado() {
         System.out.println(nome +": Ativou o Sharingan");
