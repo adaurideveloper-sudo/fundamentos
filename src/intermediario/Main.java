@@ -11,6 +11,10 @@ public class Main{
         System.out.println("Meu nome é "+ naruto.getNome() + ", " + "sou da "+ naruto.getAldeia() + " " + "e tenho " + naruto.getIdade() + " anos, " + "ja completei " + naruto.getNumeroDeMissoesConcluidas() + " missoes e meu nivel de ninja é " + naruto.getRank()+ ".");
         naruto.ModoSabioAtivado();
         naruto.estrategiaDeBatalhaNinja();
+        Missoes missao = new Missoes("Resgatar cachorro", RankDeMissoes.A);
+        Missoes missao2 = new Missoes("Derrotar Zabuza", RankDeMissoes.S);
+        missao.exibirDetalhes();
+        missao2.exibirDetalhes();
 
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", AldeiaPadrao, 18, 20, NivelNinja.CHUUNIN);
         sasuke.SharinganAtivado();

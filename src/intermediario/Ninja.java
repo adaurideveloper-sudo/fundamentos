@@ -92,6 +92,8 @@ public abstract class Ninja implements ExtategiaDeBatalha {
         this.rank = rank;
     }
 
+
+
     int idadeMinimaParaSerHokage;
 
     public int anosParaSerHokage(int idadeMinimaParaSerHokage){
