@@ -7,7 +7,7 @@ public class Main{
     static void main() {
 
 
-        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN);
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN, Bijus.KURAMA);
         System.out.println("Meu nome é "+ naruto.nome + ", " + "sou da "+ naruto.aldeia + " " + "e tenho " + naruto.idade + " anos, " + "ja completei " + naruto.numeroDeMissoesConcluidas + " missoes e meu nivel de ninja é " + naruto.rank + ".");
         naruto.ModoSabioAtivado();
         naruto.estrategiaDeBatalhaNinja();
