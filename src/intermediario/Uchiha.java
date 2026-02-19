@@ -18,12 +18,12 @@ public class Uchiha extends Ninja implements  SharinganInterface, HabilidadeEspe
      * */
     @Override
     public void SharinganAtivado() {
-        System.out.println(nome +": Ativou o Sharingan");
+        System.out.println(getNome() +": Ativou o Sharingan");
     }
 
     @Override
     public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uchiha, um ataque de fogo. Eu ja completei: " + numeroDeMissoesConcluidas + " missoes.");
+        System.out.println("Meu nome é " + getNome() + " e esse é meu ataque Uchiha, um ataque de fogo. Eu ja completei: " + getNumeroDeMissoesConcluidas() + " missoes.");
     }
 
 }

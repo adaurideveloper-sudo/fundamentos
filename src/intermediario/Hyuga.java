@@ -2,6 +2,6 @@ package intermediario;
 
 public class Hyuga extends Ninja{
     public void ByakuganAtivado() {
-        System.out.println("Meu nome é " + nome + ". O Byakugan ativou, eu sou um Hyuga.");
+        System.out.println("Meu nome é " + getNome() + ". O Byakugan ativou, eu sou um Hyuga.");
     }
 }

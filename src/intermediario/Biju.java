@@ -24,4 +24,5 @@ public enum Biju {
         this.jinchuriki = jinchuriki;
         this.numeroDeCaldas = numeroDeCaldas;
     }
+
 }

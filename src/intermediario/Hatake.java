@@ -15,16 +15,16 @@ public class Hatake extends Ninja implements  SharinganInterface, Anbuinterface 
 
     @Override
     public void ninjaDeElite() {
-        System.out.println(nome +": eu sou ninja de elite da Anbu.");
+        System.out.println(getNome() +": eu sou ninja de elite da Anbu.");
     }
 
     @Override
     public  void SharinganAtivado() {
-        System.out.println(nome +": Ativou o Sharingan");
+        System.out.println(getNome() +": Ativou o Sharingan");
 
     }
 
     public void boasVindas() {
-        System.out.println("Eu sou " + nome + " do cla Hatake.");
+        System.out.println("Eu sou " + getNome() + " do cla Hatake.");
     }
 }

@@ -8,7 +8,7 @@ public class Main{
 
 
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN, Biju.KURAMA);
-        System.out.println("Meu nome é "+ naruto.nome + ", " + "sou da "+ naruto.aldeia + " " + "e tenho " + naruto.idade + " anos, " + "ja completei " + naruto.numeroDeMissoesConcluidas + " missoes e meu nivel de ninja é " + naruto.rank + ".");
+        System.out.println("Meu nome é "+ naruto.getNome() + ", " + "sou da "+ naruto.getAldeia() + " " + "e tenho " + naruto.getIdade() + " anos, " + "ja completei " + naruto.getNumeroDeMissoesConcluidas() + " missoes e meu nivel de ninja é " + naruto.getRank()+ ".");
         naruto.ModoSabioAtivado();
         naruto.estrategiaDeBatalhaNinja();
 
@@ -25,7 +25,7 @@ public class Main{
         madara.inteligenciaDeCombate(150);
 
         Hatake kakashi = new Hatake("Kakashi Hatake", AldeiaPadrao, 48, 1000, NivelNinja.KAGE);
-        System.out.println(("Meu nome é "+ kakashi.nome + ", " + "sou da "+ kakashi.aldeia + " " + "e tenho " + kakashi.idade + " anos, " + "ja completei " + kakashi.numeroDeMissoesConcluidas + " missoes e meu nivel de ninja é " + kakashi.rank + "."));
+        System.out.println(("Meu nome é "+ kakashi.getNome() + ", " + "sou da "+ kakashi.getAldeia() + " " + "e tenho " + kakashi.getIdade() + " anos, " + "ja completei " + kakashi.getNumeroDeMissoesConcluidas() + " missoes e meu nivel de ninja é " + kakashi.getRank() + "."));
         kakashi.boasVindas();
         kakashi.SharinganAtivado();
         kakashi.ninjaDeElite();
@@ -35,9 +35,9 @@ public class Main{
 
         Anbu ninjaAnbu = new Anbu("Yugao Uzuki", AldeiaPadrao, 26, 200, NivelNinja.JOUNIN);
         ninjaAnbu.anbu();
-        ninjaAnbu.nome = "Itachi Uchiha";
+        ninjaAnbu.setNome("Itachi Uchiha");
         ninjaAnbu.anbu();
-        ninjaAnbu.nome = "Kakashi Hatake";
+        ninjaAnbu.setNome("Kakashi Hatake");
         ninjaAnbu.anbu();
 
     }

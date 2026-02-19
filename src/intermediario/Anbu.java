@@ -11,15 +11,18 @@ final class Anbu extends Ninja implements SharinganInterface, Anbuinterface{
     }
 
     public void anbu(){
-        System.out.println(nome + " Eu sou um ninja da classe Anbu!");
+        System.out.println(getNome() + " Eu sou um ninja da classe Anbu!");
     }
     @Override
     public void ninjaDeElite(){
-        System.out.println(nome +": eu sou ninja de elite da Anbu.");
+        System.out.println(getNome() +": eu sou ninja de elite da Anbu.");
     }
 
     @Override
     public void SharinganAtivado() {
-        System.out.println(nome +": Ativou o Sharingan");
+        System.out.println(getNome() +": Ativou o Sharingan");
     }
+
+
 }
+
