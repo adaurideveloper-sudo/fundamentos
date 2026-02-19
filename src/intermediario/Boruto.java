@@ -6,7 +6,7 @@ public class Boruto extends Uzumaki implements HyugaUzumaki{
 
 
     public Boruto() {
-        super("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN, Bijus.KURAMA);
+        super("Naruto Uzumaki", AldeiaPadrao, 17, 10, NivelNinja.GENIN, Biju.KURAMA);
     }
 
     public void AtivarOKarma() {

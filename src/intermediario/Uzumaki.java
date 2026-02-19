@@ -2,9 +2,9 @@ package intermediario;
 
 public class Uzumaki extends Ninja implements HabilidadeEspecialInterface{
 
-    Bijus bijus;
+    Biju biju;
 
-    public Uzumaki(String narutoUzumaki, String aldeiaPadrao, int i, int i1, NivelNinja genin, Bijus kurama) {
+    public Uzumaki(String narutoUzumaki, String aldeiaPadrao, int i, int i1, NivelNinja genin, Biju kurama) {
     }
 
     public Uzumaki(String nome, String aldeia, int idade) {
@@ -13,7 +13,7 @@ public class Uzumaki extends Ninja implements HabilidadeEspecialInterface{
 
     public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
-        this.bijus = bijus;
+        this.biju = biju;
     }
 
     public void ModoSabioAtivado(){
