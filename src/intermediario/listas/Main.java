@@ -21,11 +21,8 @@ public class Main {
             System.out.println(ninjaList.get(i));
         }
 
+        System.out.println("Tamanho Lista = " + ninjaList.size());
+
     }
-
-
-
-
-
 
 }
