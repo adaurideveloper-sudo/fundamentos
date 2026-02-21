@@ -7,7 +7,7 @@ public class BolsaGenerica<T> {
 
     private List<T> equipamentos = new ArrayList<>();
 
-    public void adicionarequipamento(T equipamento) {
+    public void adicionarEquipamento(T equipamento) {
         equipamentos.add(equipamento);
     }
 
@@ -19,6 +19,12 @@ public class BolsaGenerica<T> {
         return equipamentos.size();
     }
 
+    //mostrar lista de Equipamentos
+     public void mostrarEquipamentos() {
+        for (T equipamento : equipamentos) {
+            System.out.println(equipamento);
+        }
+     }
     @Override
     public String toString() {
         return equipamentos.toString();

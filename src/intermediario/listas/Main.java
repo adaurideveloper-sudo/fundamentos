@@ -1,5 +1,7 @@
 package intermediario.listas;
 
+import intermediario.generics.BolsaGenerica;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,5 +26,7 @@ public class Main {
         System.out.println("Tamanho Lista = " + ninjaList.size() + " elementos.");
 
     }
+
+
 
 }

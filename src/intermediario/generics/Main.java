@@ -1,7 +1,5 @@
 package intermediario.generics;
 
-import java.util.ArrayList;
-import java.util.List;
 public class Main {
 
     static void main(String[] args) {
@@ -10,10 +8,11 @@ public class Main {
         EquipamentosNinja shuriken = new EquipamentosNinja("Shuriken");
         EquipamentosNinja pergaminho = new EquipamentosNinja("pergaminho");
 
-       BolsaGenerica<EquipamentosNinja> bolsaGenerica = new BolsaGenerica<>();
-       bolsaGenerica.adicionarequipamento(kunai);
-       bolsaGenerica.adicionarequipamento(shuriken);
-       bolsaGenerica.adicionarequipamento(pergaminho);
+       BolsaGenerica<Object> bolsaGenerica = new BolsaGenerica<>();
+       bolsaGenerica.adicionarEquipamento(kunai);
+       bolsaGenerica.adicionarEquipamento(shuriken);
+       bolsaGenerica.adicionarEquipamento(pergaminho);
+       bolsaGenerica.mostrarEquipamentos();
 
         System.out.println(bolsaGenerica);
         for (int i = 0; i < bolsaGenerica.size(); i++) {
